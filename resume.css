@@ -26,6 +26,8 @@
 }
 
 .mini-label { color: var(--accent); font-size: .65rem; letter-spacing: .13em; }
+.site-header .logo { font-size: clamp(.9rem, 1.35vw, 1.2rem); letter-spacing: -.04em; }
+.hero h1 em { display: inline-block; margin-top: .18em; }
 .public-ai { background: var(--ink); color: var(--paper); }
 .public-ai .eyebrow, .public-ai-head > p { color: color-mix(in srgb, var(--paper) 65%, transparent); }
 .public-ai-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 8vw; align-items: end; }
@@ -67,6 +69,8 @@
 
 @media (max-width: 720px) {
   .source-note { margin: 28px 0 0; }
+  .site-header .logo { font-size: .9rem; }
+  .hero h1 em { margin-top: .22em; }
   .public-ai-head, .public-ai-grid, .writing-grid { grid-template-columns: 1fr; }
   .public-ai-grid article { min-height: auto; }
   .public-ai-grid h3 { margin-top: 40px; }
