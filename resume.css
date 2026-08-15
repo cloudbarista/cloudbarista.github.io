@@ -28,6 +28,7 @@
 .mini-label { color: var(--accent); font-size: .65rem; letter-spacing: .13em; }
 .site-header .logo { font-size: clamp(.9rem, 1.35vw, 1.2rem); letter-spacing: -.04em; }
 .hero h1 em { display: inline-block; margin-top: .18em; }
+.contact > p:not(.eyebrow) { font-size: clamp(1.05rem, 1.6vw, 1.35rem); }
 .public-ai { background: var(--ink); color: var(--paper); }
 .public-ai .eyebrow, .public-ai-head > p { color: color-mix(in srgb, var(--paper) 65%, transparent); }
 .public-ai-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 8vw; align-items: end; }
