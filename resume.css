@@ -29,6 +29,9 @@
 .site-header .logo { font-size: clamp(.9rem, 1.35vw, 1.2rem); letter-spacing: -.04em; }
 .hero h1 em { display: inline-block; margin-top: .18em; }
 .contact > p:not(.eyebrow) { font-size: clamp(1.05rem, 1.6vw, 1.35rem); }
+.contact .contact-linkedin { padding: 17px 28px 15px; border: 1px solid rgba(255,255,255,.85); border-radius: 999px; background: #fff; color: var(--accent); font-size: clamp(1rem, 1.5vw, 1.3rem); font-weight: 600; letter-spacing: .04em; transition: transform .2s ease, box-shadow .2s ease; }
+.contact .contact-linkedin:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(73,20,7,.22); }
+.footer-linkedin { padding-bottom: 5px; border-bottom: 2px solid var(--accent); color: var(--accent); font-size: clamp(.9rem, 1.2vw, 1.1rem); font-weight: 600; letter-spacing: .08em; }
 .public-ai { background: var(--ink); color: var(--paper); }
 .public-ai .eyebrow, .public-ai-head > p { color: color-mix(in srgb, var(--paper) 65%, transparent); }
 .public-ai-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 8vw; align-items: end; }
@@ -83,6 +86,8 @@
   .about-copy > p, .project-info p, .public-ai-grid p, .writing-grid p,
   .media-intro p, .media-item p, .video-grid p, .insight-list p,
   .contact > p { word-break: keep-all; }
+  .contact .contact-linkedin { width: 100%; max-width: 310px; padding: 15px 18px 13px; }
+  footer .footer-linkedin { width: auto; }
   .facts { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .7rem; }
   .facts dd { font-size: clamp(1.1rem, 5.5vw, 1.55rem); overflow-wrap: anywhere; }
   .timeline div { grid-template-columns: 1fr; gap: 8px; }
