@@ -1,3 +1,10 @@
+const languageParam = new URLSearchParams(location.search).get('lang');
+if (languageParam === 'ko' || languageParam === 'en') localStorage.setItem('portfolio-language', languageParam);
+const savedLanguage = localStorage.getItem('portfolio-language');
+if (document.documentElement.lang === 'ko' && !languageParam && savedLanguage !== 'ko' && (savedLanguage === 'en' || !navigator.language.toLowerCase().startsWith('ko'))) {
+  location.replace('./en.html');
+}
+
 const themeButton = document.querySelector('.theme-button');
 const savedTheme = localStorage.getItem('portfolio-theme');
 if (savedTheme === 'dark' || (!savedTheme && matchMedia('(prefers-color-scheme: dark)').matches)) document.body.classList.add('dark');
