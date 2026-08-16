@@ -1,3 +1,5 @@
+try { localStorage.removeItem('portfolio-language'); } catch (error) { /* Storage may be unavailable. */ }
+
 const themeButton = document.querySelector('.theme-button');
 const savedTheme = localStorage.getItem('portfolio-theme');
 if (savedTheme === 'dark' || (!savedTheme && matchMedia('(prefers-color-scheme: dark)').matches)) document.body.classList.add('dark');
