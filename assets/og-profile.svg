@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">안무정 포트폴리오 대표 이미지</title>
+  <desc id="desc">기술의 가능성을 비즈니스의 현실로 연결하는 Agentic AI 비즈니스 전략가 안무정</desc>
+  <rect width="1200" height="630" fill="#f4f1ea"/>
+  <rect width="18" height="630" fill="#e7542e"/>
+  <circle cx="1024" cy="314" r="220" fill="none" stroke="#cbc6ba" stroke-width="1"/>
+  <circle cx="1024" cy="314" r="164" fill="none" stroke="#e7542e" stroke-width="2" opacity=".28"/>
+  <circle cx="78" cy="69" r="6" fill="#48a868"/>
+  <text x="99" y="75" fill="#171714" font-family="'Noto Sans KR','Malgun Gothic',sans-serif" font-size="18" font-weight="700" letter-spacing="2">AI LAB FOR EVERYONE.</text>
+  <text x="1110" y="75" fill="#6e6b63" font-family="'Noto Sans KR','Malgun Gothic',sans-serif" font-size="14" text-anchor="end" letter-spacing="2">SEOUL · SOUTH KOREA</text>
+  <text x="72" y="224" fill="#171714" font-family="'KoPub Batang','Batang',serif" font-size="106" font-weight="500" letter-spacing="-7">안무정</text>
+  <text x="75" y="336" fill="#6e6b63" font-family="'Noto Sans KR','Malgun Gothic',sans-serif" font-size="25" font-weight="700" letter-spacing="5">MU JUNG AN</text>
+  <line x1="74" y1="367" x2="1120" y2="367" stroke="#cbc6ba" stroke-width="1"/>
+  <text x="72" y="443" fill="#171714" font-family="'KoPub Batang','Batang',serif" font-size="55" font-weight="400" letter-spacing="-3">기술의 가능성을</text>
+  <text x="72" y="512" fill="#e7542e" font-family="'KoPub Batang','Batang',serif" font-size="55" font-weight="500" letter-spacing="-3">비즈니스의 현실로.</text>
+  <text x="74" y="574" fill="#171714" font-family="'Noto Sans KR','Malgun Gothic',sans-serif" font-size="15" font-weight="700" letter-spacing="2.4">AGENTIC AI · CLOUD · BUSINESS DEVELOPMENT</text>
+  <text x="1110" y="574" fill="#6e6b63" font-family="'Noto Sans KR','Malgun Gothic',sans-serif" font-size="14" text-anchor="end" letter-spacing="2">PORTFOLIO</text>
+</svg>
